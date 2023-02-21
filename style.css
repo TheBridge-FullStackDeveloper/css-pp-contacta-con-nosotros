@@ -54,6 +54,7 @@ h1 {
 }
 
 footer {
+  padding: 2rem 0;
   position: absolute;
   display: flex;
   background-color: antiquewhite;
@@ -65,6 +66,22 @@ footer {
   width: 3rem;
   height: 3rem;
   padding: 0 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form button {
+  max-width: 10rem;
+  margin: 1rem 0;
+}
+
+form textarea {
+  max-width: 15rem;
+  margin: 1rem 0;
 }
 
 .facebook {
@@ -85,4 +102,16 @@ footer {
 
 .twitter {
   content: url(./assets/images/icon-twitter.svg);
+}
+
+@media (max-width: 480px) {
+  footer {
+    position: relative;
+    flex-direction: column;
+    bottom: 0;
+  }
+
+  .ico-size {
+    padding: 1rem;
+  }
 }

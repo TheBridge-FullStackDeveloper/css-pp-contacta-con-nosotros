@@ -71,6 +71,7 @@ a.cuarto:active{
     float: left;
 }
 .nav ul li{
+    list-style-type: none;
     padding: 0.65rem;
     font-size:1.3rem ;
 }

@@ -58,7 +58,7 @@ footer {
   position: absolute;
   display: flex;
   background-color: antiquewhite;
-  bottom: 20rem;
+  bottom: 0rem;
   width: 100%;
 }
 

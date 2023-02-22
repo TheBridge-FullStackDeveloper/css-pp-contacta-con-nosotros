@@ -39,3 +39,10 @@ a:hover {
 .custom_p {
     font-family: calibri;
 }
+.div1{
+    height: 700px;
+    background-image: url(/css-pp-contacta-con-nosotros/camiseta-frente-popular-de-judea.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}

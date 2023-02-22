@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body class="imagen_fondo">
+    <header>
+        <h2>Los datos de los usuarios</h2>
+
+    </header>
+    <main class="main_2">
+        <nav class="nav">
+          <ul>
+            <li> <a class="primero" href="pagina_perfil.html">Inicio</a></li>
+            <li><a class="segundo" href="#">Formulario</a></li>
+            <li><a class="tercero" href="#">Blog</a></li>
+            <li><a class="cuarto" href="#">Ayuda</a></li>
+            <li><a class="tercero" href="#">Contacto</a></li></ul></nav>
+          <div class="content">
+            <form action="#">
+            <label for="nombre">Nombre</label>
+            <input class="borde" type="text" placeholder="Escribe tu nombre completo" title="Tienes que escribir el nombre corecto" pattern="[a-z]"/>
+            <label for="telefono">Telefono</label>
+            <input type="tel" placeholder="Telefono" pattern="123-456-789" title="Tienes que introducir este formato 123-456-789"/>
+            <label for="email" >Email</label>
+            <input type="email" placeholder="Escribe tu correo electronico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+
+            <textarea name="mensaje" for="mensaje" placeholder="Escribe el comentario..." maxlength="300"></textarea>
+            <input type="submit" name="enviar" value="Enviar"/>
+          </form>
+        </div>
+      </main>
+
+
+    <footer class="fotter_pag1">
+      <div class="pie">
+        <a href="#"><img src=".\assets\images\icon-facebook.svg" alt="icon-facebook"></a>
+        <a href="#"><img src=".\assets\images\icon-instagram.svg" alt="icon-instagram"></a>
+        <a href="#"><img src="assets\images\icon-pinterest.svg" alt="icon-pinterest"></a>
+        <a href="#"><img src="assets\images\icon-tictoc.svg" alt="icon-tictoc"></a>
+        <a href=""><img src="assets\images\icon-twitter.svg" alt="icon-twitter"></a>
+    </div>
+
+    </footer>
+</body>
+</html>

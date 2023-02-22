@@ -1,0 +1,49 @@
+.header {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(92, 206, 134, 0.593);
+}
+
+.main {
+    color: black;
+    background-color: #ffa0a5;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.footer {
+    color: black;
+    background-color: #ffdea0;
+    padding: 20px;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+
+.left {
+    padding: 20px;
+    background-color: #4ddafd;
+}
+
+.centrado {
+    text-align: center;
+}
+
+a:hover {
+    background-color: yellow;
+    font-size: larger;
+}
+
+.custom_p {
+    font-family: calibri;
+}
+.div1{
+    height: 700px;
+    background-image: url(/css-pp-contacta-con-nosotros/camiseta-frente-popular-de-judea.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}

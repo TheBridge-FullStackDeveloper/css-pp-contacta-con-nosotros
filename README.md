@@ -45,11 +45,11 @@ Cada opción del menú debe cambiar los estilos cada vez que pase el mouse sobre
    - En el área de contenido debes crear estos elementos HTML con contenido:
      1. h2
      2. Imagen con un atributo alt
-     3. Párrafo (con clase: custom_p)
-     4. Div (con id: div1)
+     3. Párrafo (con clase: custom-text)
+     4. Div (con id: containerId)
      5. Dentro de este div estarán estos elementos:
         1. h2
-        2. Párrafo (con clase: custom_p)
+        2. Párrafo (con clase: custom-text)
         3. Lista desordenada con 3 elementos de lista
 
 4. A continuación, debes crear una página de contacto en un archivo HTML diferente. Este HTML debe usar el mismo archivo CSS que creó para la primera parte. Para esta página debes usar el mismo código HTML creado para los pasos anteriores pero reemplazando el área de contenido con un formulario personalizado. Debes crear un formulario que cumpla con los siguientes requisitos:
